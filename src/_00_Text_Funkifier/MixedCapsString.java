@@ -8,8 +8,11 @@ public class MixedCapsString extends SpecialString{
 
 	@Override
 	public String funkifyText(String s) {
+		String output = "";
 		
-		return "";
+		
+		
+		return output;
 	}
 
 }

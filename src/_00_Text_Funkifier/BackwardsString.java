@@ -30,8 +30,12 @@ public class BackwardsString extends SpecialString {
 		wordRay[wordcount-1] = stringcopy;
 		
 		for(int j=wordRay.length-1; j>=0; j--) {
-			//print each word backwards !!!
+			for(int k = wordRay[j].length()-1; k>=0; k--) {
+				output = output+wordRay[j].charAt(k);
+			}
+			output = output+" ";
 		}
+		System.out.println(output);
 		return output;
 	}
 
